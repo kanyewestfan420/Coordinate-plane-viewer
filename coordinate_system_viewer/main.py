@@ -5,8 +5,6 @@ pygame.init()
 # This has to be before because otherwise you get an error
 from objects import Axes, Point, CommandBox
 
-# Don't mind that the whole lines thing doesn't really make sense
-
 fps = 60
 fpsClock = pygame.time.Clock()
 
