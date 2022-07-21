@@ -68,7 +68,7 @@ commandbox = CommandBox(screen, height)
 
 points = [Point(
     screen, (5, 4, 2), axes.calculate_point_plane(
-            (5, 4, 1), POINT_RADIUS), (255, 0, 255)),
+            (5, 4, 2), POINT_RADIUS), (255, 0, 255)),
           Point(
     screen, (3, 1, 4), axes.calculate_point_plane(
         (3, 1, 4), POINT_RADIUS), (0, 255, 0))]
